@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Hello react rails
 
-> Project description paragraph with 30 words.
-
-![screenshot]()
+> This project is an introduction for Ruby on Rails working with React independently (in separate repositories). Click [here](https://github.com/Dagic-zewdu/hello-react-rails) to go to the backend repo.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -15,6 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Babel
 - npm
 - webpack
+- Bootsrap
 
 ## Built With
 
