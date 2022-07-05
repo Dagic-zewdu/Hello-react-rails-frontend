@@ -16,12 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - npm
 - webpack
 
-## Live Demo
-
-[Live Demo Link]()
-
-<<<<<<< HEAD
-
 ## Built With
 
 - Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
@@ -29,10 +23,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 To get a local copy up and running follow these simple example steps
-
-=======
-
-> > > > > > > feature
 
 ### Prerequisites
 
@@ -122,11 +112,9 @@ npx hint .
 ## Getting packages and debuging with Eslint
 
 ```
-<<<<<<< HEAD
 npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
-=======
+
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
->>>>>>> feature
 
 ```
 
