@@ -2,7 +2,7 @@ import MessageActionTypes from '../type/message';
 
 const INITIAL_STATE = {
   loading: true,
-  data: null,
+  message: null,
   error: false,
 };
 
@@ -16,7 +16,7 @@ const MessagesReducer = (state = INITIAL_STATE, { type, payload }) => {
     case MessageActionTypes.FETCH_MESSAGE_SUCCESS:
       return {
         ...state,
-        data: payload,
+        message: payload,
         error: false,
       };
     case MessageActionTypes.FETCH_MESSAGE_ERROR:
