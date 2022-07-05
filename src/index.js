@@ -4,6 +4,7 @@ import './index.css';
 import { Provider } from 'react-redux';
 import App from './App';
 import store from './Redux/configureStore';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
