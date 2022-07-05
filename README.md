@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Title
+# Hello react rails
 
-> Project description paragraph with 30 words. 
-
-![screenshot]()
+> This project is an introduction for Ruby on Rails working with React independently (in separate repositories). Click [here](https://github.com/Dagic-zewdu/hello-react-rails) to go to the backend repo.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -15,10 +13,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Babel
 - npm
 - webpack
+- Bootsrap
 
-## Live Demo
+## Built With
 
-[Live Demo Link]()
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for best practices and common errors).
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+
+To get a local copy up and running follow these simple example steps
 
 ### Prerequisites
 
@@ -32,8 +35,9 @@ The basic requirements for building the executable are:
 <br>
 
 ## Getting Started
- 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -70,6 +74,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
 #### Cloning the project
 
 ```
@@ -106,6 +111,8 @@ npx hint .
 ## Getting packages and debuging with Eslint
 
 ```
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 
 ```
@@ -124,7 +131,7 @@ npx eslint .
 
 - GitHub: [@Dagic-zewdu](https://github.com/Dagic-zewdu)
 - Twitter: [@dagic4](https://twitter.com/dagic4)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dagi-zewdu-21b835215/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dagic-zewdu/)
 
 Contributions, issues, and feature requests are welcome!
 
