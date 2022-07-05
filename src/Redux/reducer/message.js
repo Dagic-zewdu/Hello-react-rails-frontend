@@ -16,12 +16,14 @@ const MessagesReducer = (state = INITIAL_STATE, { type, payload }) => {
     case MessageActionTypes.FETCH_MESSAGE_SUCCESS:
       return {
         ...state,
+        loading: false,
         message: payload,
         error: false,
       };
     case MessageActionTypes.FETCH_MESSAGE_ERROR:
       return {
         ...state,
+        loading: false,
         error: payload,
       };
     default: return state;
