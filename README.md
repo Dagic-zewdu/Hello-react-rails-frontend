@@ -144,7 +144,7 @@ npx eslint .
 
 - GitHub: [@Dagic-zewdu](https://github.com/Dagic-zewdu)
 - Twitter: [@dagic4](https://twitter.com/dagic4)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dagi-zewdu-21b835215/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dagic-zewdu/)
 
 Contributions, issues, and feature requests are welcome!
 
