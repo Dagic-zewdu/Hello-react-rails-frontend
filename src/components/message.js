@@ -4,7 +4,7 @@ import { fetchMessageAsync } from '../Redux/action/message';
 
 function Message() {
   const dispatch = useDispatch();
-  const { message, loading, error } = useSelector((state) => state);
+  const { message } = useSelector((state) => state);
   useEffect(() => dispatch(fetchMessageAsync()), []);
   console.log(message);
   return (

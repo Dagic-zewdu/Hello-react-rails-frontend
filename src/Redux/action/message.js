@@ -21,6 +21,7 @@ export const fetchMessageAsync = () => async (dispatch) => {
     const res = await baseUrl.get('/messages');
     dispatch(fetchMessageSuccess(res.data));
   } catch (err) {
+    // eslint-disable-next-line no-console
     console.log(err);
     dispatch(fetchMessageError(err));
   }
