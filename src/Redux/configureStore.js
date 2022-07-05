@@ -1,5 +1,6 @@
-import { applyMiddleware, configureStore } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import MessagesReducer from './reducer/message';
 
-export default configureStore(MessagesReducer, applyMiddleware(thunk));
+const store = createStore(MessagesReducer, applyMiddleware(thunk));
+export default store;
